@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linoleja kalkulators</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container"><!--galvenais konteiners-->
+        <h2>Linoleja kalkulators</h2>
+        <div class="calc-container"><!--calc-container-->
+            <div class="input-container"> 
+
+                <div class="input-group">
+                    <label>Telpas platums (m)</label>
+                    <input type="number" id="roomWidth" step="0.01">
+                </div>
+                <div class="input-group">
+                    <label>Telpas garums (m)</label>
+                    <input type="number" id="roomLength" step="0.01">
+                </div>
+                <div class="input-group">
+                    <label>Linoleja platums (m)</label>
+                    <input type="number" id="linoliumWidth" step="0.01">
+                </div>
+                <div class="input-group">
+                    <label>Linoleja cena (m)</label>
+                    <input type="number" id="linoliumPrice" step="0.01">
+                </div>
+            </div><!--aizver ievades konteineri-->
+            <div class="result-container">
+                <h3>Rezultāts</h3> 
+
+            </div><!--aizver rezultāta kalkulatoru-->
+
+        </div><!--aizver kalkulatora konteineri-->
+    </div><!--aizver galveno konteineri-->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
